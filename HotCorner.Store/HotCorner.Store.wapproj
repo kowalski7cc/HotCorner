@@ -35,13 +35,18 @@
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
     <ProjectGuid>69bbb6f8-87f4-4036-96b0-55e8a49e1fe6</ProjectGuid>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <DefaultLanguage>it-IT</DefaultLanguage>
     <PackageCertificateKeyFile>HotCorner.Store_TemporaryKey.pfx</PackageCertificateKeyFile>
     <EntryPointProjectUniqueName>..\HotCorner\HotCorner.vcxproj</EntryPointProjectUniqueName>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+    <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+    <PackageCertificateThumbprint>32A370C86D8B1F24433672C02DF41E03713A9838</PackageCertificateThumbprint>
+    <AppInstallerUri>https://kowalski7cc.github.io/HotCorner/</AppInstallerUri>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefaultLanguage>en-US</DefaultLanguage>
